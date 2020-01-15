@@ -15,15 +15,16 @@
 
 </form> !-->
 
-<%= form_with model: @user do |form| %>
-  <%= form.label :username %>
-  <%= form.text_field :username %>
 
-  <%= form.label :email %>
-  <%= form.email_field :email %>
+<%= form_tag('/users', method: "post") do %>
+<%=   label_tag :username %>
+<%=   text_field_tag :username %>
 
-  <%= form.label :password %>
-  <%= form.password_field :password %>
+<%=   label_tag :email %>
+<%=   email_field(:email, 'email@example.com') %>
 
-  <%= form.submit "Create" %>
-<% end %>
+<%=   label_tag :password %>
+<%=   password_field_tag :password %>
+
+<%=   submit_tag("Create") %>
+<%  end %>
