@@ -17,6 +17,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -44,33 +45,22 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Contact](#contact)
+  * [Usage](#usage)
+  * [Automated Test](#automated-test)
+* [Author](#author)
+* [Contributing](#contributing)
 * [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+![screenshot](app/assets/images/re-former_new.png)
 
 This project is about building a form from the html way to the rails way using the rails form helpers
 
 This is the fifth Microverse project of the Ruby on Rails Curriculum
 
 This is also part of the Odin project curriculum https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms
-
-<!-- ABOUT THE PROJECT -->
-## Instalation
-
-If you want to test it you need to have Ruby and Rails installed in your computer and clone or [download](https://github.com/euqueme/re-former/archive/master.zip) this repo as follows:
-* `$ git clone "https://github.com/euqueme/re-former.git"`
-
-after that you need to open a terminal inside the repo and run the bundler
-* `$ bundler  install --without production`
-
-then, run rails db:migrate. This creates the database with the corresponding tables, columns and associations.
-* `$ rails db:migrate`
-
-and finally, you can test the [new](http://localhost:3000/users/new) and [edit](http://localhost:3000/users/1/edit) (you have to create an user first to see this page) user forms in the browser after running the server
-* `$ rails server`
-
 
 ### Built With
 This project was built using these technologies.
@@ -80,15 +70,58 @@ This project was built using these technologies.
 * Stickler
 * VsCode
 
+<!-- ABOUT THE PROJECT -->
+### Usage
+
+If you want to try it out you need to have Ruby and Rails installed in your computer and [download](https://github.com/euqueme/re-former/archive/master.zip) or clone this repo as follows:
+* `$ git clone "https://github.com/euqueme/re-former.git"`
+
+cd to the re-former directory and then, after that you need to open a terminal inside the repo and run the bundler
+* `$ bundle  install --without production`
+
+run rails db:migrate. This creates the database with the corresponding tables, columns and associations.
+* `$ rails db:migrate`
+
+finally, run the server
+* `$ rails server`
+
+and try out the [new](http://localhost:3000/users/new) 
+
+![screenshot](app/assets/images/re-former_new.png)
+
+and [edit](http://localhost:3000/users/1/edit) (you have to create an user first to see this page)
+
+![screenshot](app/assets/images/re-former_edit.png)
+
+
+<!-- AUTOMATED TEST -->
+### Automated Test
+
+> There are no Automated Test for this project yet
+
 <!-- CONTACT -->
-## Contact
+## Author
 
-Audrey Emmanuella Odiaka - [@o___audrey_xo](https://twitter.com/o___audrey_xo) - [@audrey-ella-xo](https://github.com/audrey-ella-xo) - anitaudrey@gmail.com
-<br />
-<br />
-María Eugenia Quemé - [@MaruKK](https://twitter.com/MaruKK) - [@euqueme](https://github.com/euqueme) - euqueme@gmail.com
+👤 **Audrey Emmanuella Odiaka** 
+- Twitter: [@o___audrey_xo](https://twitter.com/o___audrey_xo) 
+- Github: [@audrey-ella-xo](https://github.com/audrey-ella-xo) 
+- Gmail: anitaudrey@gmail.com
 
-Project Link: [https://github.com/euqueme/re-former)
+👤 **María Eugenia Quemé** 
+
+- Twitter: [@MaruKK](https://twitter.com/MaruKK) 
+- Github: [@euqueme](https://github.com/euqueme) 
+- Gmail: euqueme@gmail.com
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/euqueme/micro-reddit/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
